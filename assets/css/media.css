@@ -1,0 +1,110 @@
+/*Resolução maxima 320px*/
+@media screen and (max-width:320px){
+/*Modificando form(responsividade)*/
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    /*Modificando Input(responsividade)*/
+    input{
+        align-self: center;
+        width: 65%;
+    }
+}
+/*Resolução maxima 425px*/
+@media screen and(max-width:425px) {
+    /*Modificando form(responsividade)*/
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+ /*Modificando Input(responsividade)*/
+    input{
+        align-self: center;
+        width: 65%;
+    }
+    #contato{
+        display: none;
+    }
+}
+
+/*Resolução para tablet*/
+@media screen and (max-width:760px){
+    header{
+        flex-direction: column;
+
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size:32px;
+        text-align: center;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+        width: 85%;
+    }
+
+    ul{
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+    nav ul{
+        display: none;
+
+    }
+}
+
+/*RESOLUÇÃO MONITORES*/
+@media screen and (max-width:960px) {
+    header{
+        flex-direction: column;
+
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 32px;
+        text-align: center;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+        width: 85%;
+    }
+   
+    ul{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 500px;
+        line-height: 20px;
+      
+    }
+
+    nav ul{display: none;}
+    
+}
+
+/*Resolução maior*/
+@media screen and(max-width:1024px) {
+    span, h2{
+        font-size: 30px;
+    }
+    main{
+        padding: 10px;
+    }
+
+    form [type="submit"]{
+        width: 100%;
+    }
+}

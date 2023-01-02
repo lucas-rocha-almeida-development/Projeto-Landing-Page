@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+body{
+background: url(/assets/img/triste-srmadruga.gif) no-repeat;
+object-fit:cover;
+background-size: cover;
+    color: rgb(8, 0, 0);
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Reboto',sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+font-weight: 300;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a{
+    color: rgb(243, 230, 230);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgb(255, 230, 0);
+    transition: 0.3s all;
+}
+
+#btn-iscreva{
+    border: 2px solid rgb(20, 247, 255);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#btn-iscreva:hover{
+    background-color: rgb(194, 248, 0) ;
+    color: white;
+}
+
+#title{
+    font-weight: 900;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    border:5px solid rgb(144, 241, 241);
+    opacity: 0.9;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 10px;
+    font-weight: 900;
+    color: black;
+}
+
+h2 span{
+    color: rgb(194, 248, 0);
+}
+span{
+    color: rgb(194, 248, 0);
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: bold;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form [type="submit"] {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(128, 137, 219);
+    font-weight: bold;
+    color: rgb(10, 0, 0);
+    transition: all 0.3s;
+}
+
+/*passando o cursor do mouse em cima do botão enviar*/
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(224, 192, 14);
+    color: rgb(5, 0, 0);
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
